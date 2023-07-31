@@ -1,13 +1,8 @@
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineQueryResultPhoto, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram import enums
-TOKEN = 'hi'
-app = Client(
-'ystbot', 9398500, 'ad2977d673006bed6e5007d953301e13', bot_token=TOKEN
-)
-######################
-LOG = -1001739761638 #
-######################
+from AnonX app
+from config import LOG, LOG_GROUP_ID
 
 @app.on_message(filters.command("start") & filters.private)
 async def startmsg(app, message):
@@ -51,7 +46,7 @@ async def whisper(app, iquery):
       results=[
        InlineQueryResultArticle(
           title=f"📪 Send whisper for {username}",
-          url="http://t.me/Y88F8",
+          url="http://t.me/MGIMT",
           input_message_content=InputTextMessageContent(
             message_text=text,
             parse_mode=enums.ParseMode.MARKDOWN 
@@ -159,14 +154,10 @@ async def del_whisper(app,query):
    else:
      reply_markup = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton("Dev. 🔗", url="https://t.me/DevZaid")
+        InlineKeyboardButton("Dev. 🔗", url="https://t.me/IQ7amo")
       ]]
     )
      await query.edit_message_text(f"**🗑️ This whisper was deleted by ( {query.from_user.mention} ) .**",
        reply_markup=reply_markup
      )
      
-
-app.start()
-print("🎖️")
-idle()
