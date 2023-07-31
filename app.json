@@ -14,17 +14,17 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "1747534",
+        "value": "5074103",
         "required": true
       },
      "CHANNEL_ID": {
         "description": "ايدي قناتك",
-        "value": "1747534",
+        "value": "-1001665233883",
         "required": true
       },
       "USER_OWNER": {
         "description": "Your user",
-        "value": "https://e.top4top.io/p_27331r5n31.jpg",
+        "value": "IQ7amo",
         "required": true
       },
       "START_IMG_URL": {
@@ -34,22 +34,22 @@
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "5a2684512006853f2e48aca9652d83ea",
+        "value": "de9a2f1c8734b48f5a58d5271afc1b4d",
         "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "رابط قناتك",
-        "value": "https://t.me/HL_BG",
+        "value": "https://t.me/MGIMT",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "6263074417:AAFH170jmvECjc1WaTNNukjSS-Ad50gbhVc",
+        "value": "5687899495:AAF9c68StbW6DiUviPfEcU1Epy1p6ot709o",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
@@ -59,27 +59,27 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6275847466",
+        "value": "833360381",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "BAAhIHQAHuauxQHiZT8f721r4sGcC2gBgFQW8f4Us-JDJNsQtD3qUTZZ0aDsyquZ2TsIcDF33CWTjXGvNP5GIK9szulT0Pz4rT7q57q7AV083qNnvEfFfh1YGnBNOSwbBa_uVZco_zlk1AekyAV8ipS4lNa5KqrCWuF6Fxm8OpfV1VCiNAI6zTQdNFNrgJBm_hI8sdLGXos6inormyPX1d9IBIwkfizCmM2dJ1YGVtvJh0KtGwkWUHgYEknfPZk0XaMKuQREaq8MNo5dkat5Akj0tOFS573n0lseF0Gk3vwtgyWi8VNB750GxXY-YhV02F0yEZuXi2l0wpw7T0M67BHMvIakygAAAAFhguqrAA",
+        "value": "AgBNbLcAIHbuJs_K2vP2g2b0f42PY_yI72d3fcMdd57tY2bRX4ZrAVXq9N8iUv1DfOCEXPVJQumfcDr9tBBQ5lx4C3uhpGwtc9wIK2hKL1Ik2WMWJbHSZiWoFHmfcc6vDpQn5K24-HqAXpX5obSwAAGJz678_spV8iaCgjIUF6ds2siiYGVFXPh97N11THd2dMXBK55U_urVnqmVMr4G6Y5znBI9HbI1X_GlAfpMwmtdJWv4hZg0QYLjIDFfUz1v4waZdyBisIQhLMncDtPH8C4I28ACavOzjy50MsVClWxF5E0XDfOWbj04HY3uARmo5Fa18yPowqnHQzzcKJ1j_YRbMkMBTwAAAABsZ686AA",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "d9a23be7-206e-435a-ba18-6085484ce67b",
+        "value": "7841b7cd-1b70-4cfb-87ab-e91971827571",
         "required": false
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app/bot's name",
-        "value": "abyuziv",
+        "value": "zzzdevoo",
         "required": false
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1001969933498",
+        "value": "-1001668271254",
         "required": true
       }
     },
