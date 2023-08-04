@@ -103,7 +103,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-  command(["المطور"])
+  command(["کە"])
   
 )
 async def yas(client, message):
@@ -128,7 +128,7 @@ async def yas(client, message):
         ),
     )
 @app.on_message(
-   command(["قناة المطور"])
+   command(["کەناڵ"])
    
 )
 async def yas(client, message):
