@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineQueryResultPhoto, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram import enums
-from AnonX app
+from AnonX import app
 from config import LOG, LOG_GROUP_ID
 
 @app.on_message(filters.command("start") & filters.private)
