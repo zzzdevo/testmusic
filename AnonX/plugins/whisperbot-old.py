@@ -4,7 +4,7 @@ from pyrogram import enums
 from AnonX import app
 from config import LOG, LOG_GROUP_ID
 
-@app.on_message(filters.command("start") & filters.private)
+@app.on_message(filters.command("mstart") & filters.private)
 async def startmsg(app, message):
    text = '''
 👋 Hi {}
