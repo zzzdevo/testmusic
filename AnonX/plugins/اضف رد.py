@@ -33,7 +33,7 @@ async def t(client, m,):
     t = await m.chat.ask('• ارسل الان الكلمه لاضافتها في الردود', filters=filters.text & filters.user(m.from_user.id),
                          reply_to_message_id=m.id)
     if t.text in da[cid]:
-        await app.send_message(cid, "الرد مضاف من قبل !", reply_to_message_id=t.id)
+        await client.send_message(cid, "الرد مضاف من قبل !", reply_to_message_id=t.id)
     else:
         tt = await m.chat.ask("• حسناً يمكنك اضافة\n( نص,صوره,فيديو,متحركه,بصمه,اغنيه,ملف )",
                               filters=filters.user(t.from_user.id), reply_to_message_id=t.id)
