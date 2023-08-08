@@ -1,14 +1,8 @@
-# كاتب الملف @N0040
-# قناه كاتب الملف @b3kkk
-#مسموح اي شخص ياخده 
-#قناه للترفيه الشخصيه @PROGRAMMER_TOM_Donkey
-
 from pyrogram import Client , filters
 from pyrogram.types import (Message,InlineKeyboardButton,InlineKeyboardMarkup,CallbackQuery,ChatPrivileges)
 from pyrogram.enums import ChatMemberStatus
-
-app = Client("Promote @B3KKK",api_id=14170449,api_hash="03488b3c030fe095667e7ca22fe34954" ,bot_token="6246284893:AAHCh81a-g1B1FRcPRtRmgQSYMjPtsiiu7Q")
-
+from AnonX import app
+from strings.filters import command
 
 
 
@@ -492,5 +486,3 @@ async def DelMessage(c:Client,m:CallbackQuery):
 		await m.message.delete()
 
 	
-print("run...")	
-app.run()
