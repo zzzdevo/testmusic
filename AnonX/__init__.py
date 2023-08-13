@@ -23,6 +23,10 @@ app = AnonXBot()
 
 userbot = Userbot()
 
+#INFO
+BOT_ID = 0
+BOT_USERNAME = ""
+
 
 ### Assistant Info
 ASSID = 0
