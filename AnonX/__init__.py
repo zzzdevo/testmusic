@@ -24,6 +24,13 @@ app = AnonXBot()
 userbot = Userbot()
 
 
+### Assistant Info
+ASSID = 0
+ASSNAME = ""
+ASSUSERNAME = ""
+ASSMENTION = ""
+
+
 from .platforms import *
 
 YouTube = YouTubeAPI()
