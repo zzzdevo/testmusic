@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 
 from config import BOT_USERNAME, MUSIC_BOT_NAME
 from AnonX import app
-from AnonX.utils.database import (_get_theme, get_theme, save_theme)
+from AnonX.utils.database import (get_theme, save_theme)
 from AnonX.utils.decorators.permission import PermissionCheck
 
 themes = [
