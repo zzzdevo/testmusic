@@ -42,3 +42,11 @@ SoundCloud = SoundAPI()
 Telegram = TeleAPI()
 
 aiohttpsession = ClientSession()
+
+
+def init_db():
+    global db_mem
+    db_mem = {}
+
+
+init_db()
